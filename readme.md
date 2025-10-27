@@ -1,4 +1,248 @@
+Rất tuyệt — đây là **hình tổng hợp “SCRUM EVENTS – SUMMARY”** (Tổng quan các Sự kiện trong Scrum).
+Đây chính là phần “xương sống” của phương pháp Agile Scrum mà sinh viên ngành **Project Management / Software Engineering** phải nắm vững.
+Giờ tôi sẽ **giải thích cực kỳ chi tiết**, bao gồm:
+
+* Ý nghĩa từng **event (sự kiện)**
+* Ai tham gia, làm gì
+* Đầu vào (input) – Đầu ra (output)
+* Tại sao nó quan trọng
+* Ví dụ minh họa cụ thể như trong dự án thật (ví dụ “app học tiếng Anh” hoặc “cinema booking system”)
+
+---
+
+# 🌀 SCRUM EVENTS – SUMMARY (Chi tiết & Giải thích đầy đủ)
+
+---
+
+## 🧭 Tổng quan: “Một Sprint = Một chu kỳ mini của dự án”
+
+Trong **Scrum**, mọi thứ xoay quanh **Sprint** – một chu kỳ làm việc ngắn (thường 1–4 tuần) với mục tiêu rõ ràng.
+Mỗi Sprint có **5 sự kiện (events)** chính được lặp lại liên tục cho đến khi hoàn thành sản phẩm.
+
+| # | Scrum Event              | Thời điểm diễn ra | Mục tiêu chính                         |
+| - | ------------------------ | ----------------- | -------------------------------------- |
+| 1 | **Sprint Planning**      | Đầu mỗi Sprint    | Lên kế hoạch công việc                 |
+| 2 | **Daily Scrum**          | Hằng ngày         | Đồng bộ tiến độ & xử lý trở ngại       |
+| 3 | **Sprint Review**        | Cuối Sprint       | Trình bày kết quả với Stakeholders     |
+| 4 | **Sprint Retrospective** | Sau Review        | Cải tiến quy trình & teamwork          |
+| 5 | **Sprint (Toàn chu kỳ)** | 1–4 tuần          | Thực hiện toàn bộ quy trình mini dự án |
+
+---
+
+## 1️⃣ Sprint Planning Meeting (Cuộc họp lập kế hoạch Sprint)
+
+### 🎯 Mục tiêu
+
+Xác định:
+
+* **What**: Những công việc nào (User Stories) sẽ được hoàn thành trong sprint này?
+* **How**: Làm **như thế nào** để đạt mục tiêu đó?
+
+### 👥 Thành phần tham dự
+
+* **Product Owner (PO)** → Trình bày Product Backlog, ưu tiên, mục tiêu sản phẩm.
+* **Scrum Master (SM)** → Đảm bảo cuộc họp tuân theo Scrum, không lan man.
+* **Development Team (Dev)** → Tự ước lượng, chia task, cam kết công việc thực hiện.
+
+### 🧾 Đầu vào (Input)
+
+* Product Backlog (danh sách yêu cầu)
+* Độ ưu tiên & Story Points
+* Velocity trung bình của nhóm
+
+### 📦 Đầu ra (Output)
+
+* **Sprint Goal** (Mục tiêu Sprint)
+* **Sprint Backlog** (Danh sách công việc sẽ làm)
+* Kế hoạch chi tiết ai làm gì
+
+### 💡 Ví dụ:
+
+Dự án “App học tiếng Anh”:
+
+* Sprint Goal: “Cho phép người dùng học và lưu 50 từ vựng đầu tiên.”
+* Sprint Backlog gồm 5 stories:
+
+  1. Tạo UI danh sách từ vựng
+  2. Chức năng thêm/sửa/xóa từ
+  3. Hiển thị flashcard
+  4. Kiểm tra trắc nghiệm
+  5. Lưu tiến độ học
+
+### ⚠️ Lưu ý:
+
+* Không nên cam kết quá khả năng → chỉ commit lượng Story Points phù hợp Velocity.
+* Sprint Planning 1 tháng tối đa 8 giờ, thường 2–4 giờ nếu Sprint 2 tuần.
+
+---
+
+## 2️⃣ Daily Scrum (Cuộc họp hằng ngày)
+
+### 🎯 Mục tiêu
+
+Đồng bộ hoạt động trong 24h tới và phát hiện sớm **Impediments (trở ngại)**.
+
+### 🕐 Thời lượng
+
+15 phút mỗi ngày, đứng họp (stand-up meeting).
+
+### 👥 Thành phần
+
+Chỉ **Development Team** bắt buộc tham gia, **Scrum Master** và **PO** có thể nghe nhưng không điều khiển.
+
+### 🗣️ Mỗi thành viên trả lời 3 câu hỏi:
+
+1. Hôm qua tôi đã làm gì để đạt Sprint Goal?
+2. Hôm nay tôi sẽ làm gì?
+3. Có điều gì cản trở tiến độ không?
+
+### 📊 Công cụ hỗ trợ
+
+* **Burndown Chart**: Biểu đồ thể hiện lượng công việc còn lại theo thời gian.
+* **Impediment Log**: Danh sách các trở ngại cần giải quyết.
+
+### 💡 Ví dụ:
+
+Dev A: “Hôm qua tôi code xong phần lưu từ vựng, hôm nay tôi làm phần test API. Tôi cần API key mới để test.”
+→ Scrum Master ghi nhận và hỗ trợ liên hệ quản trị API.
+
+---
+
+## 3️⃣ Sprint Review Meeting (Cuộc họp trình bày kết quả)
+
+### 🎯 Mục tiêu
+
+Trình bày **Increment (phần sản phẩm hoàn thiện)** cho khách hàng và stakeholder xem, nhận phản hồi thực tế.
+
+### 👥 Thành phần
+
+* Product Owner
+* Scrum Master
+* Dev Team
+* Stakeholders (người dùng, giảng viên, khách hàng)
+
+### 🧾 Đầu vào
+
+* Increment đã “Done”
+* Sprint Goal đặt ra từ đầu
+
+### 📦 Đầu ra
+
+* Phản hồi của Stakeholders
+* Product Backlog được cập nhật / thay đổi thứ tự ưu tiên
+* Đánh giá Sprint Goal đạt hay chưa
+
+### 💡 Ví dụ:
+
+Nhóm demo tính năng “Flashcard”.
+Khách hàng yêu cầu thêm “hiển thị ảnh minh họa”.
+→ PO thêm user story “Ảnh minh họa” vào Product Backlog để làm ở Sprint sau.
+
+### ⚠️ Lưu ý:
+
+* Không phải buổi chấm điểm mà là **phản hồi hợp tác**.
+* Thời lượng tối đa 4h cho Sprint 1 tháng.
+
+---
+
+## 4️⃣ Sprint Retrospective Meeting (Cuộc họp hồi cứu)
+
+### 🎯 Mục tiêu
+
+Phân tích **quy trình làm việc**, **giao tiếp**, **công cụ**, và tìm cách cải thiện cho Sprint tiếp theo.
+
+### 👥 Thành phần
+
+* Scrum Master (dẫn dắt cuộc họp)
+* Dev Team (chính)
+* Product Owner (có thể tham dự)
+
+### 🔍 Câu hỏi thường dùng:
+
+1. Điều gì **tốt** chúng ta nên giữ lại?
+2. Điều gì **chưa tốt** cần cải thiện?
+3. Hành động cụ thể nào để cải tiến Sprint tới?
+
+### 💡 Ví dụ:
+
+* Giữ lại: “Daily Scrum diễn ra đúng giờ.”
+* Cần cải thiện: “Quy trình merge code gây xung đột.”
+* Hành động: “Áp dụng code review 2 người trước khi merge.”
+
+### ⚠️ Lưu ý:
+
+* Không đổ lỗi cá nhân → tập trung giải pháp.
+* Kết quả được lưu thành **Improvement Backlog**.
+
+---
+
+## 5️⃣ Sprint (Toàn bộ chu kỳ làm việc)
+
+### 🎯 Định nghĩa
+
+Một **Sprint** là một vòng lặp cố định, bao gồm toàn bộ các hoạt động từ lập kế hoạch đến review và retrospective.
+
+### 🔄 Chu kỳ đầy đủ:
+
+1. Sprint Planning
+2. Daily Scrum
+3. Implementation
+4. Sprint Review
+5. Sprint Retrospective
+
+### ⏱️ Thời gian
+
+* Thông thường 2 tuần – 1 tháng.
+* Sprint mới **bắt đầu ngay sau** khi Sprint trước kết thúc.
+
+### 💡 Ví dụ:
+
+Dự án “Cinema Booking System”:
+
+* Sprint 1: Chức năng chọn ghế và thanh toán.
+* Sprint 2: Thêm combo đồ ăn, cải thiện giao diện.
+* Sprint 3: Quản lý lịch chiếu & thống kê doanh thu.
+
+---
+
+## 👥 Các Vai trò (Roles) trong Sự kiện Scrum
+
+| Vai trò                | Vai trò trong các sự kiện                                  |
+| ---------------------- | ---------------------------------------------------------- |
+| **Product Owner (PO)** | Xác định mục tiêu, ưu tiên backlog, nhận phản hồi.         |
+| **Scrum Master (SM)**  | Hướng dẫn Scrum đúng cách, gỡ trở ngại, thúc đẩy cải tiến. |
+| **Development Team**   | Lên kế hoạch, thực thi, test, review và cải tiến.          |
+| **Stakeholders**       | Cung cấp phản hồi thực tế, xác nhận giá trị sản phẩm.      |
+
+---
+
+## 📈 Công cụ hỗ trợ chính
+
+| Công cụ                  | Chức năng                                |
+| ------------------------ | ---------------------------------------- |
+| **Burndown Chart**       | Theo dõi tiến độ còn lại của sprint.     |
+| **Impediment Log**       | Ghi lại trở ngại cần Scrum Master xử lý. |
+| **Release Plan**         | Xác định mốc phát hành lớn.              |
+| **Epics / User Stories** | Định nghĩa yêu cầu của sản phẩm.         |
+
+---
+
+## 🧠 Tổng kết hình ảnh
+
+Hình bạn gửi thể hiện vòng lặp Scrum gồm:
+
+* Sprint Planning → Daily Scrum → Sprint Review → Sprint Retrospective
+* Mỗi Sprint tạo ra Increment (sản phẩm chạy được).
+* Các bên tham gia cùng nhau đảm bảo **liên tục phản hồi và cải tiến**.
+
+---
+
+Bạn có muốn tôi **thêm phần này vào README hiện có** (thành mục “10. Scrum Events chi tiết và ví dụ thực tế”) để bạn có bản tài liệu học hoàn chỉnh môn Project Management không?
+
 # Phương pháp Agile & Quy trình Scrum - README (Tiếng Việt)
+
+
+
 
 ## 🧭 1. Tổng quan về Agile
 
